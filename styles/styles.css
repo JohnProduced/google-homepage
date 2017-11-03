@@ -1,0 +1,196 @@
+/* CSS Reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+/* Styles */
+
+body {
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+ p, li {
+	opacity: .75;
+ }
+
+nav {
+	float: right;
+	display: inline;
+	position: relative;
+	top: 12px;
+}
+
+nav li {
+	padding: 0 8px;
+}
+
+li {
+	display: inline;
+}
+
+.center_mid {
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	top: 185px;
+}
+.center_mid img{
+	position: relative;
+	left: 130px;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+form {
+	padding-top: 25px;
+}
+
+input {
+	padding: 12px;
+	min-width: 460px;
+	border: 1px solid #D3D3D3;
+	border-radius: 2px;	
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.4);
+	font-size: 16px;
+	position: relative;
+	left: 15px;
+}
+
+input:hover {
+	box-shadow: 1px 2px 5px 1px rgba(0,0,0,0.4);
+}
+
+#mic {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACrElEQVR42u2Xz2sTQRSAX8VSb1K8iNqKooJH2Ux6Ksn+iPQqxZMIehJB0do/IMhmQWsvHr2KSEGk0tSLIoWIYNUKij20F2/N7iaUZnYT0kYzzhMKs0HDJiTdLcwHDwKZSd63781LBiQSSW9JZdkhzfKm1Rz9mjZp/W9YdEU3vXv4HsQZ40FtNG36q5rls//Ej4tmbSS2T15Mvp3ExOPmEMQNbBtMMEyoljcFcQN7PqyAlqNfIG7gYQ0tYNIaxA1MrJPY3wImbUqBKAXSFv0tBSIVMOkvKRDtGKWN/T6FdqRAxFNoWwpEPIXqUqBT6ALU/UVgu8GW4GD3f6f9TRDYNJTDrk7YbtiqUumHwIYoUJuHERDAS0r4CvgFECgbY+cFAR7KT+g1POmCKFDNw6WggHc3fBtVb4CAoyauBgXIG+g1Xh5mRAGah6cggBd11fK/h7lOprIs0H6uRl6KAo5O7kOv4QmPiwJ4Jqqv4FiwCtXjvD2+tRmfK6kZ/ygI2HritK0rDVGgrClJ6DWMwYC/AGuCBMYcIC2V0CzvjmbRz3j3xUjn6CfeYreUJ2wQkGD75INPX1mFfsEFrrcIYCvdhC4paWQakxajpJMr0C9YFg54i7AsClRmh9/xnr0NHcInzZStk2aLwAcGMAD9pPIazvFKVDD5rdnhJeHLX5RTyRPQHpz5o66emMc9wdlPtvA8wF7Aq2BUHh1525qEo5JtR1WeOXpickO9cJIpyuD6xJmhYiZ5ytWSl3mlnuOaf+2zDaLDXmJrSgZ/MYVEugo+gSh+FkSBa4yd5Ul87DZ5XpFl/AyIEjzYjkau8WqshU2cr13HPbgX4gJOD97n465GZlyVvC9mSKloKI2iTnbwNT+gBX54H+IaXAtxJzE3ycSAFqSAFJACUkAikXD+AHj5/wx2o5osAAAAAElFTkSuQmCC) no-repeat -3px 0;
+	background-size: 24px 24px;
+	display: inline-block;
+    height: 23px;
+    width: 17px;
+    position: relative;
+    top: 5px;
+    right: 25px;
+}
+
+.buttons {
+	padding: 36px 0 15px;
+}
+
+#settings {
+	background-image: url('../media/img/i1_1967ca6a.png');
+	background-position: -137px 23px;
+	background-size: 528px 68px;
+	opacity: 0.8;
+	font-size: 15px;
+	position: relative;
+	top: 2px;
+	right:  2px;
+}
+
+#settings:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+#settings a, #notifications a, #id a {
+	visibility: hidden;
+	cursor: pointer;
+}
+
+#notifications {
+	background-image: url('../media/img/i1_1967ca6a.png');
+	background-position: -209px 70px;
+	background-size: 396px 51px;
+	opacity: 0.8;
+	font-size: 15px;
+	position: relative;
+	top: 2px;
+}
+
+#notifications:hover {
+	cursor: pointer;
+}
+
+#id {
+	background-image: url('../media/img/user.png');
+	background-size: 46px 42px;
+	font-size: 30px;
+	background-position: center;
+	position: relative;
+	right: 5px;
+	top: 6px;
+	padding-right: 5px;
+}
+
+.lang {
+	padding-top: 20px;
+	position: relative;
+	left: 2px;
+	opacity: 1;
+}
+
+.lang a {
+	padding-right: 5px;
+	color: #1a0dab;
+}
+
+.buttons li {
+	opacity: 1;
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	color:#757575;
+	font-weight: bold;
+	margin: 0 5px;
+	padding: 12px;
+}
+
+.buttons li:hover {
+	border: 1px solid #a9a9a9;
+	cursor: pointer;
+	color: #000000;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.4);
+}
+
+footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	min-width: 100%;
+	background-color: #f2f2f2;
+	font-size: 14px;
+	color: #404040;
+}
+
+footer p {
+	margin: 8px 0;
+	font-size: 15px;
+}
+
+footer a {
+	color: #404040;
+}
+
+#currentlang, #footernav {
+	border-top: 1px solid #a9a9a9;
+	min-width: 100%;
+	padding: 10px;
+}
+
+#footernav {
+	padding: 15px 10px;
+}
+
+.leftfoot {
+	padding-right: 25px;
+}
+
+.rightfoot {
+	float: right;
+	padding-right: 25px;
+}
